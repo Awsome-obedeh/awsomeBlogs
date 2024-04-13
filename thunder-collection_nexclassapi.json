@@ -1,0 +1,42 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "nexclassapi",
+    "dateExported": "2024-04-12T08:01:21.977Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "87d0e010-e137-4f4f-b05a-02a244684d13",
+            "colId": "276a6e1c-a3bf-480b-bcaa-896cdf10ee53",
+            "containerId": "",
+            "name": "movies get",
+            "url": "localhost:3000/api/movie",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-04-08T09:36:30.786Z",
+            "modified": "2024-04-08T09:38:46.252Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "06a2b949-d2fd-4d16-b4a9-5f7e2a5f7180",
+            "colId": "276a6e1c-a3bf-480b-bcaa-896cdf10ee53",
+            "containerId": "",
+            "name": "send movie",
+            "url": "http://localhost:3000/api/sendMovie",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2024-04-08T10:54:29.882Z",
+            "modified": "2024-04-08T10:58:37.093Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"obed\",\n  \"phone\":\"123456\",\n  \"sex\":\"male\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}

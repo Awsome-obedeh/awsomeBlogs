@@ -1,0 +1,28 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "next-blog",
+    "dateExported": "2024-04-12T08:01:16.193Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "5a6da4cd-9b69-4d5e-b77c-070bfddeb57d",
+            "colId": "760bb607-1578-4ac8-8111-ce83103cc724",
+            "containerId": "",
+            "name": "post",
+            "url": "http://localhost:3000/api/posts/656298849acc0787062137df",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-11-25T20:49:37.450Z",
+            "modified": "2023-11-26T23:28:09.099Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\":\"test\",\n  \"desc\":\"testing desc\",\n  \"img\":\"l\",\n  \"username\":\"obed\"\n  \n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}

@@ -41,3 +41,51 @@
     border-radius: 5px;
     width: max-content;
 }
+
+
+@media screen and (max-width:1280px){
+
+    .title{
+    
+    font-size: 65px
+    }
+}
+@media screen and (max-width:1024px){
+
+    .title{
+    
+    font-size: 55px
+    }
+
+    .imgCon{
+        display: none;
+    }
+}
+@media screen and (max-width:720px){
+
+    .title{
+    
+    font-size: 45px
+    }
+}
+@media screen and (max-width:640px){
+
+    .title{
+    
+    font-size: 40px
+    }
+}
+@media screen and(max-width:425px){
+
+    .title{
+    
+    font-size: 30px
+    }
+}
+@media screen and(max-width:380px){
+
+    .title{
+    
+    font-size: 25px;
+    }
+}
